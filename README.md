@@ -1,72 +1,90 @@
-# ✦ Yogendra Chukka (Yogi)
+# Yogendra Chukka — AI Engineer Portfolio
 
-**AI Software Engineer | AI Agent Developer | Full-Stack Developer**
+A modern, interactive portfolio website built with vanilla HTML, CSS, and JavaScript. Features ambient animations, scroll progress indicator, reveal animations, magnetic buttons, and spotlight card effects.
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#) [![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=ai&logoColor=white)](#) [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](#) [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](#)
+## Features
 
-Building intelligent systems that bridge complex backends with intuitive, premium interfaces.
+- **Scroll Progress Bar** — Visual indicator at top of page
+- **Ambient Background** — Animated gradient orbs with blur
+- **Cursor Glow** — Interactive cursor follower (desktop only)
+- **Reveal Animations** — IntersectionObserver-based scroll reveals
+- **Active Navigation** — Highlights current section in nav
+- **Spotlight Cards** — Radial gradient follows cursor on hover
+- **Magnetic Buttons** — Subtle attraction effect on hover
+- **Fully Responsive** — Mobile-first, breakpoints at 850px and 560px
+- **Accessible** — Respects `prefers-reduced-motion`, semantic HTML, ARIA labels
 
----
+## Tech Stack
 
-### ✺ About Me
+- **HTML5** — Semantic markup
+- **CSS3** — Custom properties, Grid/Flexbox, animations
+- **Vanilla JS** — IntersectionObserver, pointer events
+- **Inter Font** — Google Fonts
 
-I design and engineer production-grade AI agents and agentic workflows. My engineering focus lies in architecting robust Agentic RAG platforms, orchestrating multi-agent environments, and developing full-stack applications with a meticulous eye for modern, minimalist design. 
+## Project Structure
 
-Operating out of India, I am actively contributing to open-source AI tooling and exploring the frontiers of autonomous developer infrastructure.
+```
+Yogendra-Portfolio/
+├── index.html      # Main HTML structure
+├── style.css       # Complete stylesheet
+├── app.js          # Interactive behaviors
+└── README.md       # This file
+```
 
----
+## Sections
 
-### ✦ Featured Architecture
+1. **Hero** — Headline, intro copy, CTAs, meta tags
+2. **About** — Bio card + identity list
+3. **Focus** — Four technical direction cards
+4. **Projects** — Featured project + three additional cards
+5. **Skills** — Four categorized tag groups
+6. **Career** — Direction statement + pillars
+7. **Connect** — GitHub + Email links
 
-**[AdaptiveAgent](https://github.com/YogendraChukka01/AdaptiveAgent)**
-> *Production-grade Agentic RAG platform*
-> - Engineered a 14-node LangGraph pipeline.
-> - Integrated multi-provider LLM support and LLM-as-judge evaluation.
-> - Built with Python, FastAPI, and Next.js 15 (94 passing tests & CI integration).
+## Local Development
 
----
+Open `index.html` directly in a browser, or serve with a local server:
 
-### ✺ Engineering Portfolio
+```bash
+npx serve
+# or
+python3 -m http.server 8000
+```
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **[Chief-AI](https://github.com/YogendraChukka01/Chief-AI)** | Multi-agent orchestrator with 11 departments & 55 specialist agents | `Python`, `pydantic-ai` |
-| **[pedagogyguard-ai](https://github.com/YogendraChukka01/pedagogyguard-ai)** | VS Code extension transforming AI assistants via the Socratic method | `TypeScript` |
-| **[voice-assistant](https://github.com/YogendraChukka01/voice-assistant-python)** | Voice-controlled desktop automation, TTS, and browser control | `Python` |
-| **[Portable-Opencode](https://github.com/YogendraChukka01/Portable-Opencode)** | Zero-install, portable USB edition of OpenCode for Win/Linux | `Batchfile` |
-| **[Nephy-Agent](https://github.com/YogendraChukka01/Nephy-Agent)** | Experimental AI agent framework (Active Development) | `—` |
+## Deployment
 
----
+Deploy to any static hosting:
+- GitHub Pages
+- Vercel
+- Netlify
+- Cloudflare Pages
 
-### ✦ Technical Arsenal
+## Customization
 
-- **Agentic Systems:** LangGraph, Multi-Agent Orchestration, RAG Architectures, LLM-as-Judge
-- **Backend Infrastructure:** Python, FastAPI, Pydantic, REST APIs, Supabase
-- **Frontend & UI:** Next.js 15, TypeScript, Tailwind CSS, Minimalist UI/UX
-- **AI Tooling:** OpenAI, Claude, Multi-provider Integration, VS Code Extensions
-- **DevOps & Cloud:** Docker, GitHub Actions, Vercel
+Update these in `index.html`:
+- Email in Connect section (`your-email@example.com`)
+- Project links and descriptions
+- Social links in footer
 
----
+Update in `style.css`:
+- Color palette via CSS custom properties (`:root`)
+- Spacing, typography scale
 
-### ✺ Current Focus
+## Performance
 
-- 🏗️ **Architecting** the core mechanics of *Nephy-Agent*.
-- ⚡ **Scaling** *AdaptiveAgent* with advanced evaluation frameworks and wider provider integrations.
+- No build step, no dependencies
+- All animations use `transform`/`opacity` for GPU acceleration
+- Passive event listeners for scroll/pointer
+- `will-change` hints on animated elements
+- Reduced motion support
 
----
+## Browser Support
 
-### ✦ Engineering Metrics
+Modern browsers (last 2 versions):
+- Chrome/Edge
+- Firefox
+- Safari
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YogendraChukka01&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=a3a3a3&icon_color=ffffff" alt="Yogi's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YogendraChukka01&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=a3a3a3" alt="Top Languages" width="48%" />
-</p>
+## License
 
----
-
-### ✦ Connect & Collaborate
-
-<p align="left">
-<a href="mailto:yogendrachukka01@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://yogendrachukka01.github.io/Yogendra-Portfolio/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-</p>
+MIT — Free to use and modify.
