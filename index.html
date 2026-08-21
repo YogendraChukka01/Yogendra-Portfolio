@@ -1,777 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <meta
-    name="description"
-    content="Yogendra Chukka — AI Engineer in progress building agentic AI, RAG and full-stack systems."
-  >
-
-  <meta
-    name="theme-color"
-    content="#f7f8fa"
-  >
-
-  <meta
-    property="og:title"
-    content="Yogendra Chukka | AI Engineer"
-  >
-
-  <meta
-    property="og:description"
-    content="AI engineering portfolio — agentic AI, RAG, backend systems and modern interfaces."
-  >
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yogendra Chukka — AI & ML engineer building dependable agentic systems, RAG workflows, and thoughtful software.">
+  <meta name="theme-color" content="#f7f7f5">
+  <meta property="og:title" content="Yogendra Chukka | AI Engineer">
+  <meta property="og:description" content="AI engineering portfolio — agentic AI, RAG, backend systems and modern interfaces.">
   <title>Yogendra Chukka | AI Engineer</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <div class="scroll-progress" aria-hidden="true">
-    <span></span>
-  </div>
-
-  <div class="ambient ambient-one" aria-hidden="true"></div>
-  <div class="ambient ambient-two" aria-hidden="true"></div>
-  <div class="cursor-glow" aria-hidden="true"></div>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 
   <nav class="nav" aria-label="Primary navigation">
-
     <div class="container nav-inner">
-
-      <a
-        href="#top"
-        class="brand"
-        aria-label="Yogendra Chukka home"
-      >
-        <span class="brand-mark">Y</span>
-        <span>Yogendra Chukka</span>
-      </a>
-
-      <div class="nav-links">
-
-        <a href="#about">About</a>
-        <a href="#focus">Focus</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#career">Career</a>
-        <a href="#connect">Connect</a>
-
+      <a href="#top" class="brand" aria-label="Yogendra Chukka home"><span class="brand-mark">Y.</span><span>Yogendra Chukka</span></a>
+      <div class="nav-links" aria-label="Section links">
+        <a href="#about">About</a><a href="#focus">Focus</a><a href="#projects">Work</a><a href="#skills">Stack</a><a href="#career">Journey</a><a href="#connect">Connect</a>
       </div>
-
-      <a
-        class="nav-cta"
-        href="https://github.com/YogendraChukka01"
-        target="_blank"
-        rel="noopener"
-      >
-        GitHub ↗
-      </a>
-
+      <div class="nav-actions">
+        <button class="icon-button command-trigger" type="button" aria-label="Open command palette" aria-haspopup="dialog"><span aria-hidden="true">⌘</span><kbd>K</kbd></button>
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to dark theme"><span aria-hidden="true">◐</span></button>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+      </div>
     </div>
-
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="#about">About</a><a href="#focus">Focus</a><a href="#projects">Selected work</a><a href="#skills">Technical stack</a><a href="#career">Journey</a><a href="#connect">Connect</a>
+      <a class="mobile-github" href="https://github.com/YogendraChukka01" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
   </nav>
 
-  <main id="top">
-
-    <!-- HERO -->
-
-    <header class="hero">
-
+  <main id="content">
+    <header id="top" class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
       <div class="container hero-inner">
-
-        <div class="eyebrow reveal">
-
-          <span class="status-dot"></span>
-
-          B.Tech AI & ML · 3rd Year
-
-        </div>
-
-        <h1 class="reveal reveal-delay-1">
-
-          Building toward
-          <br>
-
-          <span>AI Engineering.</span>
-
-        </h1>
-
-        <p class="hero-copy reveal reveal-delay-2">
-
-          I'm Yogendra Chukka, an AI & ML student
-          building practical systems with Python,
-          generative AI, agentic workflows and modern
-          software engineering.
-
-        </p>
-
+        <p class="eyebrow reveal"><span class="status-dot"></span>Available for meaningful collaborations</p>
+        <p class="hero-kicker reveal reveal-delay-1">AI / ML engineering · India</p>
+        <h1 class="reveal reveal-delay-1">Building systems that make <em>intelligence</em> useful.</h1>
+        <p class="hero-copy reveal reveal-delay-2">I’m Yogendra Chukka, an AI &amp; ML student engineering practical LLM products, agentic workflows, and the dependable software beneath them.</p>
         <div class="hero-actions reveal reveal-delay-3">
-
-          <a
-            href="#projects"
-            class="button button-primary magnetic"
-          >
-            Explore Projects
-            <span>↓</span>
-          </a>
-
-          <a
-            href="https://github.com/YogendraChukka01"
-            class="button button-secondary magnetic"
-            target="_blank"
-            rel="noopener"
-          >
-            GitHub Profile ↗
-          </a>
-
+          <a href="#projects" class="button button-primary magnetic">Explore selected work <span aria-hidden="true">↓</span></a>
+          <a href="https://github.com/YogendraChukka01" class="button button-secondary" target="_blank" rel="noopener">Visit GitHub <span aria-hidden="true">↗</span></a>
         </div>
-
-        <div
-          class="hero-meta reveal reveal-delay-4"
-          aria-label="Quick profile details"
-        >
-          <span>Python-first</span>
-          <span>Agentic AI</span>
-          <span>RAG</span>
-          <span>Full-stack systems</span>
+        <div class="signal-card reveal reveal-delay-4" aria-label="Current engineering focus">
+          <span class="signal-label">CURRENT_SIGNAL</span><span>Designing agent workflows that reason, retrieve, and respond with intent.</span><i aria-hidden="true"></i>
         </div>
-
       </div>
-
-      <a
-        href="#about"
-        class="scroll-cue"
-        aria-label="Scroll to about"
-      >
-        <span>Scroll</span>
-        <i></i>
-      </a>
-
     </header>
 
-
-    <!-- ABOUT -->
-
-    <section id="about">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <small>01 · About</small>
-
-          <h2>Engineer in progress.</h2>
-
-          <p>
-            Focused on building the technical foundation required
-            to turn AI ideas into reliable software.
-          </p>
-
-        </div>
-
-
-        <div class="about-grid">
-
-          <article class="card spotlight reveal">
-
-            <div class="card-glow"></div>
-
-            <h3>Who I Am</h3>
-
-            <p>
-              I am a B.Tech student specializing in
-              Artificial Intelligence & Machine Learning.
-              My primary language is Python, and I am growing
-              across AI/ML, backend development, APIs,
-              databases, algorithms and software engineering.
-            </p>
-
-            <p>
-              My goal is to become an AI Engineer who can
-              turn machine learning and generative AI concepts
-              into practical, maintainable systems.
-            </p>
-
-          </article>
-
-
-          <article class="card reveal reveal-delay-1">
-
-            <ul class="identity-list">
-
-              <li>
-                <span>Name</span>
-                <span>Yogendra Chukka</span>
-              </li>
-
-              <li>
-                <span>Education</span>
-                <span>B.Tech</span>
-              </li>
-
-              <li>
-                <span>Specialization</span>
-                <span>AI & ML</span>
-              </li>
-
-              <li>
-                <span>Current Level</span>
-                <span>3rd Year</span>
-              </li>
-
-              <li>
-                <span>Primary Language</span>
-                <span>Python</span>
-              </li>
-
-              <li>
-                <span>Career Direction</span>
-                <span>AI Engineer</span>
-              </li>
-
-            </ul>
-
-          </article>
-
-        </div>
-
+    <section id="about"><div class="container">
+      <div class="section-heading reveal"><p class="section-index">01 / About</p><h2>Grounded in fundamentals.<br>Oriented toward impact.</h2><p>I care about the full path from an AI idea to a maintainable product: reasoning, interfaces, APIs, data, and the decisions that make a system trustworthy.</p></div>
+      <div class="about-grid">
+        <article class="about-story surface reveal"><p class="mono-label">THE BRIEF</p><h3>Turning AI capability into a product people can actually use.</h3><p>My work begins with a practical question: what should the system understand, decide, and make easier? From there, I build clearly—from a useful prompt or retrieval strategy to a stable API and interface.</p><div class="principles"><span>Useful over novel</span><span>Clarity over complexity</span><span>Systems over demos</span></div></article>
+        <aside class="profile-card surface reveal reveal-delay-1"><p class="mono-label">PROFILE / 2026</p><dl><div><dt>Focus</dt><dd>AI engineering</dd></div><div><dt>Building with</dt><dd>Python &amp; TypeScript</dd></div><div><dt>Studying</dt><dd>B.Tech · AI &amp; ML</dd></div><div><dt>Interested in</dt><dd>Agentic systems &amp; RAG</dd></div></dl></aside>
       </div>
+    </div></section>
 
-    </section>
-
-
-    <!-- FOCUS -->
-
-    <section id="focus">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <small>02 · Focus</small>
-
-          <h2>What I'm building toward.</h2>
-
-          <p>
-            A focused technical direction instead of
-            a collection of unrelated technologies.
-          </p>
-
-        </div>
-
-
-        <div class="focus-grid">
-
-          <article class="focus-card reveal">
-
-            <div class="focus-number">01</div>
-
-            <h3>Artificial Intelligence</h3>
-
-            <p>
-              Strong foundations in intelligent systems,
-              model behavior and practical AI applications.
-            </p>
-
-            <span class="card-arrow">↗</span>
-
-          </article>
-
-
-          <article class="focus-card reveal reveal-delay-1">
-
-            <div class="focus-number">02</div>
-
-            <h3>Generative AI</h3>
-
-            <p>
-              LLM applications, retrieval systems,
-              evaluation and practical generative AI workflows.
-            </p>
-
-            <span class="card-arrow">↗</span>
-
-          </article>
-
-
-          <article class="focus-card reveal reveal-delay-2">
-
-            <div class="focus-number">03</div>
-
-            <h3>Agentic AI</h3>
-
-            <p>
-              Tool use, memory, planning and execution
-              patterns for AI agents that actually do work.
-            </p>
-
-            <span class="card-arrow">↗</span>
-
-          </article>
-
-
-          <article class="focus-card reveal reveal-delay-3">
-
-            <div class="focus-number">04</div>
-
-            <h3>Software Engineering</h3>
-
-            <p>
-              Backend, APIs, databases and engineering
-              practices that make AI applications dependable.
-            </p>
-
-            <span class="card-arrow">↗</span>
-
-          </article>
-
-        </div>
-
+    <section id="focus" class="focus-section"><div class="container">
+      <div class="section-heading reveal"><p class="section-index">02 / Engineering focus</p><h2>Intelligence needs an architecture.</h2><p>A small set of connected disciplines—each one in service of building useful, observable AI applications.</p></div>
+      <div class="focus-grid">
+        <article class="focus-card reveal"><span>01</span><h3>LLM applications</h3><p>Purposeful generative interfaces with context, evaluation, and guardrails.</p></article>
+        <article class="focus-card reveal reveal-delay-1"><span>02</span><h3>Agent systems</h3><p>Tools, memory, and execution flows for agents that can take useful action.</p></article>
+        <article class="focus-card reveal reveal-delay-2"><span>03</span><h3>Reliable backend</h3><p>Clear APIs, data models, and workflows that make AI features production-ready.</p></article>
+        <article class="focus-card reveal reveal-delay-3"><span>04</span><h3>Developer experience</h3><p>Thoughtful tools and interfaces that help people work better with AI.</p></article>
       </div>
+    </div></section>
 
-    </section>
-
-
-    <!-- PROJECTS -->
-
-    <section
-      id="projects"
-      class="projects-section"
-    >
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <small>03 · Selected Work</small>
-
-          <h2>Projects that show the direction.</h2>
-
-          <p>
-            Real repositories turn the story into evidence.
-            These are the projects worth putting in front
-            of recruiters first.
-          </p>
-
-        </div>
-
-
-        <div class="projects-grid">
-
-
-          <a
-            class="project-card project-featured reveal spotlight"
-            href="https://github.com/YogendraChukka01/AdaptiveAgent"
-            target="_blank"
-            rel="noopener"
-          >
-
-            <div class="project-top">
-
-              <span class="project-label">
-                Featured · Agentic RAG
-              </span>
-
-              <span class="project-link">
-                View repo ↗
-              </span>
-
-            </div>
-
-            <h3>AdaptiveAgent</h3>
-
-            <p>
-              An agentic RAG platform exploring graph-based
-              workflows, multi-provider LLMs and
-              evaluation-driven AI systems.
-            </p>
-
-            <div class="project-tags">
-
-              <span>Python</span>
-              <span>FastAPI</span>
-              <span>LangGraph</span>
-              <span>Next.js</span>
-
-            </div>
-
-          </a>
-
-
-          <a
-            class="project-card reveal reveal-delay-1"
-            href="https://github.com/YogendraChukka01/Chief-AI"
-            target="_blank"
-            rel="noopener"
-          >
-
-            <div class="project-top">
-
-              <span class="project-label">
-                Multi-agent
-              </span>
-
-              <span class="project-link">
-                ↗
-              </span>
-
-            </div>
-
-            <h3>Chief-AI</h3>
-
-            <p>
-              Multi-agent orchestration concept with
-              departments and specialist agents
-              for structured task execution.
-            </p>
-
-            <div class="project-tags">
-
-              <span>Python</span>
-              <span>pydantic-ai</span>
-
-            </div>
-
-          </a>
-
-
-          <a
-            class="project-card reveal reveal-delay-2"
-            href="https://github.com/YogendraChukka01/pedagogyguard-ai"
-            target="_blank"
-            rel="noopener"
-          >
-
-            <div class="project-top">
-
-              <span class="project-label">
-                Developer Tooling
-              </span>
-
-              <span class="project-link">
-                ↗
-              </span>
-
-            </div>
-
-            <h3>pedagogyguard-ai</h3>
-
-            <p>
-              A VS Code extension concept that encourages
-              AI assistants to guide developers through
-              Socratic interactions.
-            </p>
-
-            <div class="project-tags">
-
-              <span>TypeScript</span>
-              <span>VS Code</span>
-
-            </div>
-
-          </a>
-
-
-          <a
-            class="project-card reveal reveal-delay-3"
-            href="https://github.com/YogendraChukka01/Portable-Opencode"
-            target="_blank"
-            rel="noopener"
-          >
-
-            <div class="project-top">
-
-              <span class="project-label">
-                Developer Infrastructure
-              </span>
-
-              <span class="project-link">
-                ↗
-              </span>
-
-            </div>
-
-            <h3>Portable-Opencode</h3>
-
-            <p>
-              Portable development tooling aimed at making
-              an AI coding workflow easier to move
-              between systems.
-            </p>
-
-            <div class="project-tags">
-
-              <span>Automation</span>
-              <span>CLI</span>
-              <span>Windows/Linux</span>
-
-            </div>
-
-          </a>
-
-        </div>
-
+    <section class="system-section" aria-labelledby="system-title"><div class="container system-layout">
+      <div class="system-copy reveal"><p class="section-index">SYSTEM_NOTE / 01</p><h2 id="system-title">How I think about an AI request.</h2><p>Useful systems are more than a model call. They route intent, retrieve the right context, use tools carefully, and return a response a person can act on.</p><p class="system-caption">Select a node to inspect the system.</p></div>
+      <div class="agent-map reveal reveal-delay-1" role="group" aria-label="Interactive AI request pipeline">
+        <button class="agent-node is-active" type="button" data-node="input"><b>01</b><span>User input</span><small>Intent &amp; context</small></button><div class="agent-line" aria-hidden="true"></div>
+        <button class="agent-node" type="button" data-node="router"><b>02</b><span>Router</span><small>Classify &amp; plan</small></button><div class="agent-line" aria-hidden="true"></div>
+        <button class="agent-node" type="button" data-node="agent"><b>03</b><span>Agent</span><small>Reason &amp; decide</small></button><div class="agent-line" aria-hidden="true"></div>
+        <button class="agent-node" type="button" data-node="tools"><b>04</b><span>Tools + RAG</span><small>Retrieve &amp; act</small></button><div class="agent-line" aria-hidden="true"></div>
+        <button class="agent-node" type="button" data-node="response"><b>05</b><span>Response</span><small>Useful output</small></button>
+        <p class="node-detail" aria-live="polite">Start with a clear input: the user’s goal, context, and constraints shape every decision that follows.</p>
       </div>
+    </div></section>
 
-    </section>
-
-
-    <!-- SKILLS -->
-
-    <section id="skills">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <small>04 · Technical Direction</small>
-
-          <h2>Skills with purpose.</h2>
-
-          <p>
-            Grouped around the kind of AI engineering
-            work I want to ship.
-          </p>
-
-        </div>
-
-
-        <div class="skills">
-
-          <article class="skill-group reveal">
-
-            <h3>Languages</h3>
-
-            <div class="tags">
-
-              <span class="tag">Python</span>
-              <span class="tag">TypeScript</span>
-              <span class="tag">SQL</span>
-
-            </div>
-
-          </article>
-
-
-          <article class="skill-group reveal reveal-delay-1">
-
-            <h3>AI / ML</h3>
-
-            <div class="tags">
-
-              <span class="tag">Machine Learning</span>
-              <span class="tag">Generative AI</span>
-              <span class="tag">LLMs</span>
-              <span class="tag">RAG</span>
-              <span class="tag">Agentic AI</span>
-              <span class="tag">LangGraph</span>
-
-            </div>
-
-          </article>
-
-
-          <article class="skill-group reveal reveal-delay-2">
-
-            <h3>Development</h3>
-
-            <div class="tags">
-
-              <span class="tag">FastAPI</span>
-              <span class="tag">REST APIs</span>
-              <span class="tag">Next.js</span>
-              <span class="tag">Backend Development</span>
-              <span class="tag">Software Engineering</span>
-
-            </div>
-
-          </article>
-
-
-          <article class="skill-group reveal reveal-delay-3">
-
-            <h3>Engineering Foundations</h3>
-
-            <div class="tags">
-
-              <span class="tag">Data Structures</span>
-              <span class="tag">Algorithms</span>
-              <span class="tag">Databases</span>
-              <span class="tag">Git</span>
-              <span class="tag">GitHub</span>
-              <span class="tag">Docker</span>
-
-            </div>
-
-          </article>
-
-        </div>
-
+    <section id="projects" class="projects-section"><div class="container">
+      <div class="projects-intro reveal"><div class="section-heading"><p class="section-index">03 / Selected work</p><h2>Evidence, not just ambition.</h2></div><p>Explorations in agent workflows, developer tooling, and portable engineering systems.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured reveal"><div class="project-visual visual-agent" aria-hidden="true"><span>AGENT / 01</span><i></i><i></i><i></i><b>Adaptive<br>Agent</b></div><div class="project-content"><p class="project-number">01 — Featured / Agentic RAG</p><h3>AdaptiveAgent</h3><p>An agentic RAG platform exploring graph-based workflows, multi-provider LLMs, and evaluation-driven AI systems.</p><ul><li>Graph-oriented orchestration</li><li>Retrieval-aware reasoning</li><li>Evaluation as a design input</li></ul><div class="project-footer"><div class="project-tags"><span>Python</span><span>FastAPI</span><span>LangGraph</span><span>Next.js</span></div><a href="https://github.com/YogendraChukka01/AdaptiveAgent" target="_blank" rel="noopener" aria-label="View AdaptiveAgent repository">View repo <span>↗</span></a></div></div></article>
+        <article class="project-card reveal reveal-delay-1"><p class="project-number">02 — Multi-agent orchestration</p><h3>Chief-AI</h3><p>Multi-agent orchestration concept with departments and specialist agents for structured task execution.</p><div class="project-footer"><div class="project-tags"><span>Python</span><span>pydantic-ai</span></div><a href="https://github.com/YogendraChukka01/Chief-AI" target="_blank" rel="noopener">Repository <span>↗</span></a></div></article>
+        <article class="project-card reveal reveal-delay-2"><p class="project-number">03 — Developer tooling</p><h3>pedagogyguard-ai</h3><p>A VS Code extension concept encouraging AI assistants to guide developers through Socratic interactions.</p><div class="project-footer"><div class="project-tags"><span>TypeScript</span><span>VS Code</span></div><a href="https://github.com/YogendraChukka01/pedagogyguard-ai" target="_blank" rel="noopener">Repository <span>↗</span></a></div></article>
+        <article class="project-card reveal reveal-delay-3"><p class="project-number">04 — Developer infrastructure</p><h3>Portable-Opencode</h3><p>Portable development tooling for making an AI coding workflow easier to move between systems.</p><div class="project-footer"><div class="project-tags"><span>Automation</span><span>CLI</span><span>Windows/Linux</span></div><a href="https://github.com/YogendraChukka01/Portable-Opencode" target="_blank" rel="noopener">Repository <span>↗</span></a></div></article>
       </div>
+    </div></section>
 
-    </section>
+    <section id="skills"><div class="container"><div class="section-heading reveal"><p class="section-index">04 / Technical stack</p><h2>Capability, organized by the work.</h2><p>Tools are most useful when they connect to a real engineering decision. These are the foundations I’m developing across AI products.</p></div><div class="skill-grid">
+      <details class="skill-group reveal" open><summary><span>AI &amp; generative systems</span><i>+</i></summary><div><p>Building intelligence with an emphasis on real-world application.</p><span>Machine Learning</span><span>LLMs</span><span>RAG</span><span>LangGraph</span><span>Agentic AI</span></div></details>
+      <details class="skill-group reveal reveal-delay-1"><summary><span>Backend &amp; data</span><i>+</i></summary><div><p>Providing the dependable foundations an AI product needs.</p><span>Python</span><span>FastAPI</span><span>REST APIs</span><span>SQL</span><span>Databases</span></div></details>
+      <details class="skill-group reveal reveal-delay-2"><summary><span>Product &amp; interfaces</span><i>+</i></summary><div><p>Making technical capability clear and usable for people.</p><span>TypeScript</span><span>Next.js</span><span>VS Code</span><span>Developer Tools</span></div></details>
+      <details class="skill-group reveal reveal-delay-3"><summary><span>Engineering practice</span><i>+</i></summary><div><p>Learning the practices that move projects beyond a prototype.</p><span>Git</span><span>GitHub</span><span>Docker</span><span>Algorithms</span><span>System design</span></div></details>
+    </div></div></section>
 
+    <section id="career" class="career"><div class="container"><div class="section-heading reveal"><p class="section-index">05 / Journey</p><h2>Learning in public. Building in earnest.</h2></div><ol class="timeline reveal"><li><span>Now</span><div><h3>Strengthening the foundations</h3><p>Deepening core AI/ML knowledge alongside data structures, algorithms, APIs, and software engineering.</p></div></li><li><span>Next</span><div><h3>Shipping smarter AI workflows</h3><p>Exploring RAG evaluation, tool use, and multi-agent patterns through practical builds.</p></div></li><li><span>Direction</span><div><h3>Production-minded AI engineering</h3><p>Building systems that pair intelligent behavior with the reliability and clarity a real product demands.</p></div></li></ol></div></section>
 
-    <!-- CAREER -->
-
-    <section
-      id="career"
-      class="career"
-    >
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <small>05 · Career</small>
-
-          <h2>From learning to shipping.</h2>
-
-          <p>
-            The long-term goal is to become an AI engineer
-            who understands both models and production software.
-          </p>
-
-        </div>
-
-
-        <div class="career-box reveal">
-
-          <div>
-
-            <span class="career-kicker">
-              Direction
-            </span>
-
-            <h3>
-              Build AI systems that are useful,
-              reliable and engineered to last.
-            </h3>
-
-            <p>
-              I am building toward strong fundamentals
-              in machine learning, LLMs, agentic systems,
-              backend engineering, databases and
-              production-oriented software development.
-            </p>
-
-          </div>
-
-          <div class="career-line" aria-hidden="true">
-            <span></span>
-          </div>
-
-
-          <div class="career-pillars">
-
-            <span>AI Engineering</span>
-            <span>Generative AI</span>
-            <span>Agentic Systems</span>
-            <span>Backend Engineering</span>
-            <span>System Design</span>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- CONNECT -->
-
-    <section id="connect">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <small>06 · Connect</small>
-
-          <h2>Let's build something useful.</h2>
-
-          <p>
-            Open to conversations around AI engineering,
-            projects, learning and collaboration.
-          </p>
-
-        </div>
-
-
-        <div class="connect">
-
-          <a
-            class="connect-link reveal"
-            href="https://github.com/YogendraChukka01"
-            target="_blank"
-            rel="noopener"
-          >
-
-            <span>GitHub</span>
-            <span>@YogendraChukka01 ↗</span>
-
-          </a>
-
-
-          <a
-            class="connect-link reveal reveal-delay-1"
-            href="mailto:your-email@example.com"
-          >
-
-            <span>Email</span>
-            <span>Let's connect ↗</span>
-
-          </a>
-
-        </div>
-
-      </div>
-
-    </section>
-
+    <section id="connect" class="connect-section"><div class="container connect-wrap reveal"><p class="section-index">06 / Connect</p><h2>Let’s build something<br><em>intelligent.</em></h2><p>Open to thoughtful conversations on AI engineering, useful side projects, and collaborative learning.</p><div class="connect-links"><a class="button button-primary magnetic" href="https://github.com/YogendraChukka01" target="_blank" rel="noopener">GitHub profile <span>↗</span></a><a class="button button-secondary" href="mailto:your-email@example.com">Start a conversation <span>↗</span></a></div></div></section>
   </main>
+  <footer><div class="container footer-inner"><span>© 2026 Yogendra Chukka</span><button class="back-to-top" type="button">Back to top ↑</button><span>Designed for useful intelligence.</span></div></footer>
 
-
-  <footer>
-
-    <div class="container footer-inner">
-
-      <span>
-        © 2026 Yogendra Chukka
-      </span>
-
-      <span>
-        Building toward AI Engineering.
-      </span>
-
-    </div>
-
-  </footer>
-
-
+  <dialog class="command-palette" aria-labelledby="command-title"><div class="command-head"><h2 id="command-title">Navigate</h2><button class="command-close" type="button" aria-label="Close command palette">Esc</button></div><label><span class="sr-only">Search commands</span><input class="command-input" type="text" placeholder="Search sections or actions…" autocomplete="off"></label><div class="command-list" role="listbox"><button type="button" data-command="#top">Home <kbd>↵</kbd></button><button type="button" data-command="#projects">Selected work <kbd>↵</kbd></button><button type="button" data-command="#skills">Technical stack <kbd>↵</kbd></button><button type="button" data-command="#connect">Connect <kbd>↵</kbd></button><button type="button" data-command="theme">Toggle theme <kbd>↵</kbd></button></div><p class="command-help">Press <kbd>Esc</kbd> to close</p></dialog>
   <script src="app.js"></script>
-
-</body>
-</html>
+</body></html>

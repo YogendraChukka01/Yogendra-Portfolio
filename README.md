@@ -1,90 +1,43 @@
 # Yogendra Chukka — AI Engineer Portfolio
 
-A modern, interactive portfolio website built with vanilla HTML, CSS, and JavaScript. Features ambient animations, scroll progress indicator, reveal animations, magnetic buttons, and spotlight card effects.
+A dependency-free, single-page portfolio for an AI & ML engineer. The experience is built with semantic HTML, modern CSS, and small vanilla JavaScript enhancements—no framework or build step required.
 
-## Features
+## Highlights
 
-- **Scroll Progress Bar** — Visual indicator at top of page
-- **Ambient Background** — Animated gradient orbs with blur
-- **Cursor Glow** — Interactive cursor follower (desktop only)
-- **Reveal Animations** — IntersectionObserver-based scroll reveals
-- **Active Navigation** — Highlights current section in nav
-- **Spotlight Cards** — Radial gradient follows cursor on hover
-- **Magnetic Buttons** — Subtle attraction effect on hover
-- **Fully Responsive** — Mobile-first, breakpoints at 850px and 560px
-- **Accessible** — Respects `prefers-reduced-motion`, semantic HTML, ARIA labels
+- Refined editorial visual system with responsive typography, light/dark themes, and subtle ambient depth.
+- Accessible sticky navigation with active-section state and a keyboard-friendly mobile menu.
+- `Cmd/Ctrl + K` command palette for fast section navigation and theme switching.
+- IntersectionObserver-powered reveal system, scroll progress indicator, and motion-safe magnetic primary CTAs.
+- Interactive AI request pipeline that communicates an intentional approach to routing, agents, retrieval, and tools.
+- Case-study-style project cards with preserved GitHub repository links.
+- Expandable, grouped technical stack and a concise engineering journey timeline.
 
-## Tech Stack
+## Local development
 
-- **HTML5** — Semantic markup
-- **CSS3** — Custom properties, Grid/Flexbox, animations
-- **Vanilla JS** — IntersectionObserver, pointer events
-- **Inter Font** — Google Fonts
-
-## Project Structure
-
-```
-Yogendra-Portfolio/
-├── index.html      # Main HTML structure
-├── style.css       # Complete stylesheet
-├── app.js          # Interactive behaviors
-└── README.md       # This file
-```
-
-## Sections
-
-1. **Hero** — Headline, intro copy, CTAs, meta tags
-2. **About** — Bio card + identity list
-3. **Focus** — Four technical direction cards
-4. **Projects** — Featured project + three additional cards
-5. **Skills** — Four categorized tag groups
-6. **Career** — Direction statement + pillars
-7. **Connect** — GitHub + Email links
-
-## Local Development
-
-Open `index.html` directly in a browser, or serve with a local server:
+The project can be opened directly in a browser. To serve it locally:
 
 ```bash
-npx serve
-# or
-python3 -m http.server 8000
+python3 -m http.server 4173
 ```
 
-## Deployment
+Then open `http://localhost:4173`.
 
-Deploy to any static hosting:
-- GitHub Pages
-- Vercel
-- Netlify
-- Cloudflare Pages
+## Project structure
+
+```text
+├── index.html  # Semantic content and accessible interaction controls
+├── style.css   # Design tokens, responsive layout, themes, and motion styles
+├── app.js      # Navigation, command palette, theme persistence, and enhancements
+└── README.md
+```
+
+## Accessibility and performance
+
+- The experience honors `prefers-reduced-motion`; reveal effects are immediately visible and motion interactions are disabled.
+- Controls have labels, keyboard focus styles, and native interactive elements.
+- Theme preference is stored in `localStorage` and defaults to the system preference.
+- No runtime dependencies, images, canvas, or scroll polling are used. Scroll state uses a passive listener, and reveal/active navigation use `IntersectionObserver`.
 
 ## Customization
 
-Update these in `index.html`:
-- Email in Connect section (`your-email@example.com`)
-- Project links and descriptions
-- Social links in footer
-
-Update in `style.css`:
-- Color palette via CSS custom properties (`:root`)
-- Spacing, typography scale
-
-## Performance
-
-- No build step, no dependencies
-- All animations use `transform`/`opacity` for GPU acceleration
-- Passive event listeners for scroll/pointer
-- `will-change` hints on animated elements
-- Reduced motion support
-
-## Browser Support
-
-Modern browsers (last 2 versions):
-- Chrome/Edge
-- Firefox
-- Safari
-
-## License
-
-MIT — Free to use and modify.
+Update content, project links, and the email call-to-action in `index.html`. Palette and spacing tokens live at the top of `style.css`.
